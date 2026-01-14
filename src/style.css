@@ -3,3 +3,21 @@ body {
   background-color: var(--bg-primary);
   color: var(--txt-primary);
 }
+
+.ctx {
+  margin-top: 20vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  input {
+    text-align: center;
+  }
+}
