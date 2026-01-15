@@ -11,3 +11,13 @@ button {
   background-color: var(--bg-danger);
   scale: 1;
 }
+
+input[type="submit"] {
+  background-color: salmon;
+  color: pink;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  scale: 1.1;
+}

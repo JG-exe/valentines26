@@ -26,6 +26,10 @@ input {
   background-color: var(--bg-secondary);
   border-radius: 7px 7px 5px 5px;
   transition-duration: 0.3s;
+}
+
+input[type="text"],
+input[type="password"] {
   background-image: linear-gradient(
     to right,
     var(--hl-secondary) 50%,
