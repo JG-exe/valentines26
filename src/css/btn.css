@@ -1,0 +1,12 @@
+button {
+  width: 46%;
+  height: 8rem;
+}
+
+#y {
+  background-color: var(--bg-good);
+}
+
+#n {
+  background-color: var(--bg-danger);
+}

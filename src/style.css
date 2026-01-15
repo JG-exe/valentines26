@@ -1,11 +1,12 @@
 @import url(./css/colours.css);
+@import url(./css/btn.css);
+
 body {
   background-color: var(--bg-primary);
   color: var(--txt-primary);
 }
 
 .ctx {
-  margin-top: 20vh;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -38,4 +39,18 @@ input {
 input:focus {
   outline: none;
   background-position: 0% 100%;
+}
+
+.mTop20 {
+  margin-top: 20vh;
+}
+.mTop40 {
+  margin-top: 40vh;
+}
+
+.response {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
 }
