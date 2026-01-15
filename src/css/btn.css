@@ -9,4 +9,5 @@ button {
 
 #n {
   background-color: var(--bg-danger);
+  scale: 1;
 }
