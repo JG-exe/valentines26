@@ -17,7 +17,25 @@ form {
   flex-direction: column;
   text-align: center;
   width: 200px;
-  input {
-    text-align: center;
-  }
+}
+
+input {
+  text-align: center;
+  border: 2px solid transparent;
+  background-color: var(--bg-secondary);
+  border-radius: 7px 7px 5px 5px;
+  transition-duration: 0.3s;
+  background-image: linear-gradient(
+    to right,
+    var(--hl-secondary) 50%,
+    var(--hl-primary) 50%
+  );
+  background-size: 220% 2px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+input:focus {
+  outline: none;
+  background-position: 0% 100%;
 }

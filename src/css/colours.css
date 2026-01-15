@@ -1,7 +1,13 @@
 :root {
   /* background colours */
   --bg-primary: pink;
+  --bg-secondary: lightpink;
 
   /* text colours */
   --txt-primary: palevioletred;
+  --txt-secondary: lightgreen;
+
+  /* highlight colours */
+  --hl-primary: salmon;
+  --hl-secondary: violet;
 }
