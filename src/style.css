@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import url(./css/colours.css);
 @import url(./css/btn.css);
 
 body {
   background-color: var(--bg-primary);
   color: var(--txt-primary);
+  font-family: "Jua", "fantasy";
 }
 
 .ctx {
