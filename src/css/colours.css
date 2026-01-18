@@ -8,6 +8,7 @@
   /* text colours */
   --txt-primary: palevioletred;
   --txt-secondary: lightgreen;
+  --txt-tertiary: var(--bg-primary);
 
   /* highlight colours */
   --hl-primary: salmon;

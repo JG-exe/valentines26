@@ -13,8 +13,8 @@ button {
 }
 
 input[type="submit"] {
-  background-color: salmon;
-  color: pink;
+  background-color: var(--hl-primary);
+  color: var(--txt-tertiary);
   cursor: pointer;
 }
 
