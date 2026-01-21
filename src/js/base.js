@@ -1,5 +1,7 @@
 let scale = 1;
 
+addListeners();
+
 function addListeners() {
   const no = document.getElementById("n");
   no.addEventListener("mousemove", (e) => {
@@ -29,5 +31,3 @@ function addListeners() {
     console.log("yes");
   });
 }
-
-addListeners();
