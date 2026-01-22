@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 @import url(./css/colours.css);
 @import url(./css/btn.css);
+@import url(./css/modal.css);
 
 * {
   font-family: "Jua", "fantasy";

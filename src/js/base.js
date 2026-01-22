@@ -12,8 +12,8 @@ function addListeners() {
     const deltaX = centerX - e.clientX;
     const deltaY = centerY - e.clientY;
 
-    no.style.transform = `translate(${deltaX * 0.9}px, ${
-      deltaY * 0.9
+    no.style.transform = `translate(${deltaX * 0.8}px, ${
+      deltaY * 0.8
     }px) scale(${scale})`;
   });
 
