@@ -1,4 +1,22 @@
 #close {
   width: min-content;
   height: fit-content;
+  background-color: transparent;
+  border-radius: 5px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-color: var(--hl-secondary);
+}
+
+#close:focus {
+  outline: var();
+}
+
+dialog {
+  margin-top: 20vh;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: var(--hl-primary);
+  background-color: var(--bg-secondary);
 }

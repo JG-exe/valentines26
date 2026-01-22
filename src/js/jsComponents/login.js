@@ -11,6 +11,10 @@ document.getElementById("login").addEventListener("submit", (e) => {
   );
 });
 
+document
+  .getElementById("close")
+  .addEventListener("click", (e) => feedback.close());
+
 function login(name, pw) {
   if (name === NAME && pw === PW) {
     console.log("ok");

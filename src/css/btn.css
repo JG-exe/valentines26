@@ -1,6 +1,7 @@
 button {
   width: 46%;
   height: 8rem;
+  cursor: pointer;
 }
 
 #y {
