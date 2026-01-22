@@ -17,7 +17,7 @@ document
 
 function login(name, pw) {
   if (name === NAME && pw === PW) {
-    console.log("ok");
+    window.location = "./question";
   } else {
     feedback.show();
   }
