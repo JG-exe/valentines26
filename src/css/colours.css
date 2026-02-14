@@ -2,8 +2,8 @@
   /* background colours */
   --bg-primary: pink;
   --bg-secondary: lightpink;
-  --bg-danger: red;
-  --bg-good: lightgreen;
+  --bg-danger: rgb(255, 90, 90);
+  --bg-good: rgb(79, 222, 79);
 
   /* text colours */
   --txt-primary: palevioletred;

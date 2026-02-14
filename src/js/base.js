@@ -29,12 +29,12 @@ function addListeners() {
 
   no.addEventListener("click", (e) => {
     console.log("click");
+    // disappointed modal
   });
 
   yes.addEventListener("click", (e) => {
     console.log("yes");
+    // celebration
+    localStorage.setItem("didShe", JSON.stringify(1))
   });
-
-  yes.addEventListener("hover", (e)=>{
-  })
 }
