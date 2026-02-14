@@ -1,6 +1,6 @@
 let scale = 1;
 let uhohClicks = 0;
-const uhohMessages = ["why? :(", "I thought you loved meeee", "try again?", "Why would you? :((", "nooooo", "But I love you so much, why?"];
+const uhohMessages = ["why? :(", "I thought you loved meeee", "ouch", "really? :/", "try again?", "Must be a misclick, right? Right?", "Rude? :((", "nooooo", "But I love you so much", "but...", "please", "Stop clicking that oneee!", "What did I do?", "Are you sure that's the right one?"];
 addListeners();
 
 function addListeners() {
