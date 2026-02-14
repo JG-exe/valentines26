@@ -20,7 +20,6 @@ function addListeners() {
   no.addEventListener("mouseenter", (e) => {
     scale = scale - scale / 10;
     no.style.transform = `scale(${scale})`;
-    console.log(scale);
   });
 
   no.addEventListener("click", (e) => {

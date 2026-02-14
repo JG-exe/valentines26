@@ -3,7 +3,7 @@ const PW = import.meta.env.VITE_PW;
 const form = document.getElementById("login");
 const feedback = document.getElementById("feedback");
 
-document.getElementById("login").addEventListener("submit", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
   login(
     document.getElementById("name").value,
@@ -17,6 +17,7 @@ document
 
 function login(name, pw) {
   if (name === NAME && pw === PW) {
+    sessionStorage.setItem("ok", JSON.stringify(1))
     window.location = "./question";
   } else {
     feedback.show();
