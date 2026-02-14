@@ -20,7 +20,7 @@ document
 function login(name, pw) {
   if (name === NAME && pw === PW) {
     sessionStorage.setItem("ok", JSON.stringify(1))
-    window.location = "./yay";
+    window.location = "./question";
   } else {
     feedback.show();
   }
