@@ -20,3 +20,10 @@ dialog {
   border-color: var(--hl-primary);
   background-color: var(--bg-secondary);
 }
+
+#uhoh {
+  margin: auto;
+  min-width: 20vw;
+  min-height: 20vw;
+  text-align: center;
+}

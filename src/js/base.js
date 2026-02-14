@@ -1,10 +1,12 @@
 let scale = 1;
-
+let uhohClicks = 0;
+const uhohMessages = ["why? :(", "I thought you loved meeee","Why would you? :((", "nooooo", "But I love you so much, why?"];
 addListeners();
 
 function addListeners() {
   const no = document.getElementById("n");
   const yes = document.getElementById("y")
+  const uhoh = document.getElementById("uhoh");
 
   document.addEventListener("mousemove", (e) => {
 
@@ -28,13 +30,19 @@ function addListeners() {
   });
 
   no.addEventListener("click", (e) => {
-    console.log("click");
-    // disappointed modal
+    document.getElementById("uhohTxt").innerText = uhohMessages[uhohClicks]
+    uhoh.showModal();
+    uhohClicks++
+    if(uhohMessages.length <= uhohClicks){
+      uhohClicks = 0;
+    }
   });
 
   yes.addEventListener("click", (e) => {
     console.log("yes");
-    // celebration
     localStorage.setItem("didShe", JSON.stringify(1))
+    window.location = "/yay"
   });
+
+  uhoh.addEventListener("click", () => uhoh.close())
 }
