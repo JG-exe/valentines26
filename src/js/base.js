@@ -4,29 +4,37 @@ addListeners();
 
 function addListeners() {
   const no = document.getElementById("n");
-  no.addEventListener("mousemove", (e) => {
-    const rect = e.target.getBoundingClientRect();
-    const centerX = rect.left + rect.width / 2;
-    const centerY = rect.top + rect.height / 2;
+  const yes = document.getElementById("y")
 
-    const deltaX = centerX - e.clientX;
-    const deltaY = centerY - e.clientY;
+  document.addEventListener("mousemove", (e) => {
 
-    no.style.transform = `translate(${deltaX * 0.8}px, ${
-      deltaY * 0.8
-    }px) scale(${scale})`;
+    if (e.clientX > rect.left && deltaX < (rect.left + rect.width)){
+  }
   });
 
   no.addEventListener("mouseenter", (e) => {
     scale = scale - scale / 10;
     no.style.transform = `scale(${scale})`;
+
+    const rect = e.target.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+
+    const deltaX =   centerX - e.clientX;
+    const deltaY =  centerY - e.clientY;
+    no.style.transform = 
+    `translate(${deltaX}px, ${deltaY}px) scale(${scale})`;
+
   });
 
   no.addEventListener("click", (e) => {
     console.log("click");
   });
 
-  document.getElementById("y").addEventListener("click", (e) => {
+  yes.addEventListener("click", (e) => {
     console.log("yes");
   });
+
+  yes.addEventListener("hover", (e)=>{
+  })
 }
