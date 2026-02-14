@@ -3,6 +3,8 @@ const PW = import.meta.env.VITE_PW;
 const form = document.getElementById("login");
 const feedback = document.getElementById("feedback");
 
+const feedbackTxt = []; //TODO: add hints
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   login(

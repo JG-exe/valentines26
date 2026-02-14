@@ -41,7 +41,7 @@ function addListeners() {
   yes.addEventListener("click", (e) => {
     console.log("yes");
     localStorage.setItem("didShe", JSON.stringify(1))
-    window.location = "/yay"
+    window.location = "./yay"
   });
 
   uhoh.addEventListener("click", () => uhoh.close())
