@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/your-repo-name/',
+  base: '/valentines26/',
   build: {
     outDir: 'dist',
     rollupOptions: {
